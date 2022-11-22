@@ -1,0 +1,13 @@
+git push origin main/master
+#scaricare le modifiche da github (per sincronizzare il locale con il server)
+git fetch #scarica solo i commit dal remoto
+git pull origin main#è un fetch ma scarica anche tutti gli oggetti da remoto
+git remote add origin <url repository> #aggiunge un riferimento al server remoto
+
+nano .gitignore #creare il file e lo apre-> ctrl+o salva; ctrl+x chiude nano
+#*.qualcora tutti file estensione qualcosaù
+#qualcosa.* tutti i file che si chiamano qualcosa con qualsiasi estensione
+#qualcosa/ ; .qualcosa/ sono cartelle esclude queste
+
+git commit --amend -m "testo" #modifica ultimo commit non pushato
+
